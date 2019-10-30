@@ -44,5 +44,4 @@ testem.log
 Thumbs.db
 
 package-lock.json
-package.json
 proxy.config.json

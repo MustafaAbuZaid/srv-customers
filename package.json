@@ -1,0 +1,36 @@
+{
+  "name": "srv-auth",
+  "version": "1.0.0",
+  "description": "This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.",
+  "main": "elmah.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convict": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "express-winston": "^4.0.1",
+    "jsdoc": "3.3.0",
+    "jsonwebtoken": "8.1.1",
+    "mongoose": "^5.7.7",
+    "oauth2orize": "^1.11.0",
+    "passport": "0.4.0",
+    "passport-anonymous": "1.0.1",
+    "passport-custom": "1.0.5",
+    "passport-headerapikey": "1.1.0",
+    "passport-http": "0.3.0",
+    "passport-http-bearer": "1.0.1",
+    "passport-local": "1.0.0",
+    "request": "2.83.0",
+    "request-context": "2.0.0",
+    "request-promise": "4.2.2",
+    "uuid": "^3.3.3",
+    "winston-mongodb": "^5.0.0"
+  }
+}
