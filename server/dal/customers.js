@@ -38,8 +38,8 @@ module.exports = {
           password: password
         },
           (err, res) => {
-            if (err) {
-              return callback(new returnClass(err, null));
+            if (res == null) {
+              return callback('undefined');
             }
             else
               if (res) {
